@@ -11,8 +11,10 @@ console.log(" Au reveille " +  petitDejeuner + " et pour le plat de resistance d
 // Exercise 2 : Series
 
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
-
-
+/******************************************************
+Correcteur: Yannick GOUGUIA
+Revoir cet exercice, mauvaise reponse
+*****************************************************/
 let myWatchedSeriesLength = 3;
 
 console.log(" I watched " + myWatchedSeriesLength +" series: "  + myWatchedSeries);
@@ -33,6 +35,15 @@ console.log(myWatchedSeries);
 myWatchedSeries.unshift(" invictus ");
 console.log(myWatchedSeries);
 
+/******************************************************
+Correcteur: Yannick GOUGUIA
+Pourquoi repeter le meme contenu?????
+cette constante existe deja a la ligne 13 ainsi qu'a la ligne 51
+
+Probleme d'optimisation
+
+Revoir tout cet exercice
+*****************************************************/
 const SeeMyWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 
 console.log(SeeMyWatchedSeries);
