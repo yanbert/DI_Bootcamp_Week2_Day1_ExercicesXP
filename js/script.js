@@ -12,7 +12,11 @@ console.log(" Au reveille " +  petitDejeuner + " et pour le plat de resistance d
 
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 
+/**
+Correcteur: Yannick GOUGUIA
 
+ligne 20: On te demande de retourner le nombre et non de definir une valeur toi même, tu connais la methode qui permet de recuperer la longueur d'un tableau
+*/
 let myWatchedSeriesLength = 3;
 
 console.log(" I watched " + myWatchedSeriesLength +" series: "  + myWatchedSeries);
